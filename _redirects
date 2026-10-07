@@ -1,0 +1,7 @@
+# Cloudflare Pages Internal Mellow Mesh Redirects
+# Intuitive subpaths for internal services - Accessible strictly via MellowVPN WireGuard Mesh (10.66.66.0/24)
+/noticeboard http://10.66.66.1:3600 302
+/monsterDB http://10.66.66.1:3500 302
+/monsterdb http://10.66.66.1:3500 302
+/tavern http://10.66.66.1:8000 302
+/ports http://10.66.66.1:7600 302

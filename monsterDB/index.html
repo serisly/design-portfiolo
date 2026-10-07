@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="refresh" content="0; url=http://10.66.66.1:3500">
+  <title>MonsterDB — Mellow Gateway</title>
+  <style>
+    body {
+      background-color: #0b0f19;
+      color: #e2e8f0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      margin: 0;
+    }
+    .card {
+      background: #131927;
+      border: 1px solid #1e293b;
+      border-radius: 12px;
+      padding: 32px;
+      max-width: 440px;
+      text-align: center;
+      box-shadow: 0 10px 25px -5px rgba(0,0,0,0.5);
+    }
+    h2 { margin-top: 0; color: #38bdf8; font-size: 1.25rem; }
+    p { color: #94a3b8; font-size: 0.9rem; line-height: 1.5; }
+    .badge {
+      display: inline-block;
+      background: #1e1b4b;
+      color: #a855f7;
+      border: 1px solid #3b0764;
+      padding: 4px 10px;
+      border-radius: 9999px;
+      font-size: 0.75rem;
+      font-weight: 600;
+      margin-bottom: 12px;
+    }
+    a { color: #38bdf8; text-decoration: none; font-weight: 500; }
+    a:hover { text-decoration: underline; }
+  </style>
+  <script>
+    window.location.replace("http://10.66.66.1:3500" + window.location.search + window.location.hash);
+  </script>
+</head>
+<body>
+  <div class="card">
+    <div class="badge">🔒 Mellow Mesh Internal</div>
+    <h2>Connecting to MonsterDB</h2>
+    <p>Redirecting to private endpoint: <br><a href="http://10.66.66.1:3500">http://10.66.66.1:3500</a></p>
+    <p style="font-size: 0.8rem; color: #64748b; margin-top: 20px;">
+      Access is strictly limited to authenticated MellowVPN WireGuard clients. If this page does not load, please verify MellowVPN is connected.
+    </p>
+  </div>
+</body>
+</html>
