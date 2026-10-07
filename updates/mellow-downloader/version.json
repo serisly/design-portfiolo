@@ -1,6 +1,9 @@
 {
-  "version": "1.3.0",
+  "version": "1.3.3",
   "release_date": "2026-10-07",
-  "setup_url": "https://github.com/serisly/design-portfiolo/releases/download/v1.3.0/MellowDownloader-Setup.exe",
-  "changelog": "Mellow Downloader v1.3.0 with modular IDM/JDownloader architecture."
+  "url": "https://github.com/serisly/mellow-downloader/releases/latest/download/MellowDownloader-Setup.exe",
+  "setup_url": "https://github.com/serisly/mellow-downloader/releases/latest/download/MellowDownloader-Setup.exe",
+  "url_fallback": "http://10.66.66.1:7600/updates/mellow-downloader/MellowDownloader-Setup.exe",
+  "mandatory": false,
+  "changelog": "Mellow Downloader v1.3.3 release with automated updates."
 }
